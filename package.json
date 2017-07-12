@@ -1,0 +1,30 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "^4.15.3",
+    "express-session": "*",
+    "express-validator": "*",
+    "morgan": "*",
+    "multer": "*",
+    "nunjucks": "^3.0.1",
+    "passport": "*",
+    "passport-local": "*",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.2.1",
+    "serve-favicon": "*"
+  }
+}

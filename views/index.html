@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="starter-template">
+    <h1>Members Area</h1>
+    <div>
+        {% if user.profileImage %}
+        <img src="/uploads/{{user.profileImage}}" alt="">
+        {% endif %}
+        <h3>Name : {{ user.name }}</h3>
+        <h3>Email : {{ user.email }}</h3>
+    </div>
+    <input type="button" name="change" value="sua">
+</div>
+
+{% endblock %}
